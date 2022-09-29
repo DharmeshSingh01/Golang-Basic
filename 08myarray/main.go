@@ -30,4 +30,15 @@ func main() {
 
 	fmt.Println(myArray)
 
+	//find postive even number
+
+	numArray := [...]int{-67, 45, 2, 10, 11, -64, 8}
+	count := 0
+	for _, val := range numArray {
+		if val%2 == 0 && val > 0 {
+			count++
+		}
+	}
+	fmt.Println("Postive Even count is: ", count)
+
 }
