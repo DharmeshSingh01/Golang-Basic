@@ -19,5 +19,15 @@ func main() {
 	var vegList = [3]string{"Potato", "Beens", "Mashrom"}
 	fmt.Println("Veg List is :", vegList)
 	fmt.Println("Length of vegList List is: ", len(vegList))
+	myArray := [3]float64{1.2, 5.6}
+	fmt.Println(myArray)
+	myArray[2] = 6
+
+	//a := 10
+	// myArray[0] = a //cannot use a (variable of type int) as float64 value in
+
+	//myArray[3] = 10.10 Index out of bound
+
+	fmt.Println(myArray)
 
 }
