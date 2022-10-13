@@ -14,7 +14,7 @@ func main() {
 	// if err != nil {
 	// 	panic(err)
 	// }
-	checkError()
+	checkError(err)
 	length, err := io.WriteString(file, content)
 	// if err != nil {
 	// 	panic(err)
@@ -34,4 +34,5 @@ func checkError(err error) {
 	if err != nil {
 		panic(err)
 	}
+	//panic(err)
 }
